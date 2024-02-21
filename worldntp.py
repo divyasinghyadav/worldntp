@@ -29,7 +29,7 @@ def main():
     with col2:
         # Center the title horizontally
         #st.markdown("<h1 style='text-align: center;'>CSIR-NPL</h1>", unsafe_allow_html=True)
-        st.markdown("<h1 style='text-align: center;'>Developed by giCSIR-NPL<br>NTP Servers Status worldwide</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center;'>Developed by CSIR-NPL<br>NTP Servers Status worldwide</h1>", unsafe_allow_html=True)
 
     with col3:
         st.image("npl_logo.png", width=150)
