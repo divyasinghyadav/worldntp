@@ -38,7 +38,7 @@ def main():
     other_ntp_servers = [
         'time.nplindia.org', 'time.nplindia.in',
           '14.139.60.103', '14.139.60.106', '14.139.60.107',
-        'samay1.nic.in', 'samay2.nic.in', '103.165.30.244', 
+        'samay1.nic.in', 'samay2.nic.in', '157.20.66.8', '157.20.67.8', 
         'time.nist.gov', 'time.google.com', 'uk.pool.ntp.org', 'time.windows.com',
         'ptbtime1.ptb.de',  
     ]
