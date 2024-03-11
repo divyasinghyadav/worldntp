@@ -68,7 +68,7 @@ def main():
     # Plot server offset
     plt.figure(figsize=(12, 6))
     plt.bar(other_server_names, offsets2, color='green', alpha=0.7, label='Offset')
-    plt.xlabel('Private IP of the NTP servers world wide', fontsize=16, fontweight='bold')
+    plt.xlabel('IP/domain_name of the NTP servers world wide', fontsize=16, fontweight='bold')
     plt.ylabel('Offset (seconds)',fontsize=16, fontweight='bold')
     plt.title('NTP Servers Offset worldwide',fontsize=20, fontweight='bold')
     plt.yticks(fontsize=14, fontweight='bold')
@@ -78,7 +78,7 @@ def main():
     # Plot server delay
     plt.figure(figsize=(12, 6))
     plt.bar(other_server_names, delays2, color='blue', alpha=0.7, label='Delay')
-    plt.xlabel('private IP of the NTP Servers world wide', fontsize=16, fontweight='bold')
+    plt.xlabel('IP/domain_name of the NTP Servers world wide', fontsize=16, fontweight='bold')
     plt.ylabel('Delay (seconds)',fontsize=16, fontweight='bold')
     plt.title('NTP Servers Delay',fontsize=20, fontweight='bold')
     plt.xticks(rotation=45, ha='right',fontsize=14, fontweight='bold')
@@ -89,7 +89,7 @@ def main():
     # Plot server processing time
     plt.figure(figsize=(12, 6))
     plt.bar(other_server_names, processing_time2, color='pink', alpha=0.7, label='Offset')
-    plt.xlabel('Private IP of the NTP servers world wide', fontsize=16, fontweight='bold')
+    plt.xlabel('IP/domain_name of the NTP servers world wide', fontsize=16, fontweight='bold')
     plt.ylabel('processing time (seconds)',fontsize=16, fontweight='bold')
     plt.title('NTP Servers processing time worldwide',fontsize=20, fontweight='bold')
     plt.yticks(fontsize=14, fontweight='bold')
